@@ -6,19 +6,33 @@ Després de setmanes immersos en el ritme imprevisible d'una consultora tecnolò
 
 ## si vols anar a les carpetes de tasques
 [tasca1](tasca1/README.md)
+
 [tasca2](tasca2/README.md)
+
 [tasca3](tasca3/README.md)
+
 [tasca4](tasca4/README.md)
+
 [tasca5](tasca5/README.md)
+
 [tasca6](tasca6/README.md)
+
 [tasca7](tasca7/README.md)
+
 [tasca8](tasca8/README.md)
+
 [tasca9](tasca9/README.md)
+
 [tasca10](tasca10/README.md)
+
 [tasca11](tasca11/README.md)
+
 [tasca12](tasca12/README.md)
+
 [tasca13](tasca13/README.md)
+
 [tasca14](tasca14/README.md)
+
 [tasca15](tasca15/README.md)
 
 ---
