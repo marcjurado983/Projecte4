@@ -1,5 +1,9 @@
 # DRP: Còpies de Seguretat – Cas Pràctic
 
+## per entrar a les fases:
+[fase1](fase1.md)
+[fase3](fase2.md)
+[fase3](fase3.md)
 ## 🧭 Introducció
 
 La primera hora el vostre responsable de seguretat us presenta el tema de les còpies de seguretat a partir d’un material didàctic.  
