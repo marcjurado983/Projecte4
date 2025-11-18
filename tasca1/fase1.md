@@ -5,7 +5,7 @@ De forma individual, heu de donar resposta a les següents preguntes basant-se e
 	-Per el servidor és totalment diferent a la del client perquè tens la teva base de dades que es tot el que enviem al client amb informació.
 	-I per el que fa el Client és més diferent a el servidor que te tota la informació, no cal fer còpies dels 10 equips si només emmagatzemen dades temporals. Això si, caldria copiar aquelles carpetes o perfils que no estiguin  al servidor per exemple documents locals del ordinador.
  	-El servidor és el punt central que té tota la informació. Els clients poden ser restaurats amb una imatge estàndard del sistema operatiu i aplicacions, mentre que les dades importants són les del servidor i les que te ell a dins.
-2.  Periodicitat i Tipus de Còpia: Proposa un calendari bàsic per a la setmana (Diari/Setmanal/Mensual) i quin tipus de còpia aplicaràs (Completa, Diferencial, Incremental) per a les dades crítiques.
+2.     Periodicitat i Tipus de Còpia: Proposa un calendari bàsic per a la setmana (Diari/Setmanal/Mensual) i quin tipus de còpia aplicaràs (Completa, Diferencial, Incremental) per a les dades crítiques.
 	El que es el calendari basic jo faria copies diaries, setmanals i mensuals la diaria només els canvis des de l’última còpia que hem arribat a fer. La  setmanal una copia de tots els canvis des de l’última còpia completa i finalment la mensual de totes les dades i configuracions.
 La Diària Còpia incremental és ràpida i eficient en espai.
 La Setmanal Còpia diferencial es bona entre temps i seguretat.
