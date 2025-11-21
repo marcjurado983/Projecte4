@@ -5,43 +5,14 @@
 Després de setmanes immersos en el ritme imprevisible d'una consultora tecnològica, arriba el darrer capítol del projecte EverPia. Aquest és un moment que combina entusiasme, maduresa i un sentiment clar: aquesta etapa s’acaba, i en comença una de nova.
 
 ## si vols anar a les carpetes de tasques
-[Per Entrar a la tasca1](tasca1/README.md)
-
-[Per Entrar a la tasca2](tasca2/README.md)
-
-[Per Entrar a la tasca3](tasca3/README.md)
-
-[Per Entrar a la tasca4](tasca4/README.md)
-
-[Per Entrar a la tasca5](tasca5/README.md)
-
-[Per Entrar a la tasca6](tasca6/README.md)
-
-[Per Entrar a la tasca7](tasca7/README.md)
-
-[Per Entrar a la tasca8](tasca8/README.md)
-
-[Per Entrar a la tasca9](tasca9/README.md)
-
-[Per Entrar a la tasca10](tasca10/README.md)
-
-[Per Entrar a la tasca11](tasca11/README.md)
-
-[Per Entrar a la tasca12](tasca12/README.md)
-
-[Per Entrar a la tasca13](tasca13/README.md)
-
-[Per Entrar a la tasca14](tasca14/README.md)
-
-[Per Entrar a la tasca15](tasca15/README.md)
 
 # TASQUES I PRODUCTES
 
 | Tasques                                                       | Productes                                                   |
 |---------------------------------------------------------------|-------------------------------------------------------------|
-|                                                                📦 [P01](./productes/P01)                                   
-| 📁 [T01](tasca1/README.md)                                     📦 [P02](./productes/P02)                                   
-| 📁 [T02](tasca2/README.md))                                    📦 [P03](./productes/P03)                                   
+|                                                                📦 [P01](PRODUCTESfINALS/producte1)                                   
+| 📁 [T01](tasca1/README.md)                                     📦 [P02](PRODUCTESfINALS/producte2)                                
+| 📁 [T02](tasca2/README.md))                                    📦 [P03](PRODUCTESfINALS/producte3)                                    
 | 📁 [T03](tasca3/README.md)                                                                                                 
 | 📁 [T04](tasca4/README.md)                                                                                                 
 | 📁 [T05](tasca5/README.md)                                                                                                  
