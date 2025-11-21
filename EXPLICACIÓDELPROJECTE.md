@@ -35,6 +35,29 @@ Després de setmanes immersos en el ritme imprevisible d'una consultora tecnolò
 
 [Per Entrar a la tasca15](tasca15/README.md)
 
+# TASQUES I PRODUCTES
+
+| Tasques                                                       | Productes                                                   |
+|---------------------------------------------------------------|-------------------------------------------------------------|
+|                                                                📦 [P01](./productes/P01)                                   
+| 📁 [T01](tasca1/README.md)                                     📦 [P02](./productes/P02)                                   
+| 📁 [T02](tasca2/README.md))                                    📦 [P03](./productes/P03)                                   
+| 📁 [T03](tasca3/README.md)                                                                                                 
+| 📁 [T04](tasca4/README.md)                                                                                                 
+| 📁 [T05](tasca5/README.md)                                                                                                  
+| 📁 [T06](tasca6/README.md)                                                                                                  
+| 📁 [T07](tasca7/README.md)                                                                                                  
+| 📁 [T08](tasca8/README.md)                                                                                                  
+| 📁 [T09](tasca9/README.md)                                                                                                    
+| 📁 [T10](tasca10/README.md)                                                                                                   
+| 📁 [T11](tasca11/README.md)                                                                                                   
+| 📁 [T12](tasca12/README.md)                                                                                                   
+| 📁 [T13](tasca13/README.md)                                                                                                   
+| 📁 [T14](tasca14/README.md)                                                                                                   
+| 📁 [T15](tasca15/README.md)                                                                                                   
+
+
+
 ---
 
 ## 🚀 El Camí del Júnior IT
