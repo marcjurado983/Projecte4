@@ -1,5 +1,7 @@
 # La Vostra Missió: Crear la Base de Coneixement
 
+[solucio)](tasca5/solucio.md)
+
 La consultora creixerà, i aviat s'incorporaran nous becaris al vostre equip. No podem permetre'ns perdre temps formant-los des de zero en tasques bàsiques.
 
 Per tant, la teva tasca avui és una **Prova de Concepte (PoC)** interna que servirà de base per a la documentació oficial de l'empresa. Has de crear les **guies d'ús internes** que rebrà el proper becari, explicant com connectar-se als nostres sistemes de manera segura.
