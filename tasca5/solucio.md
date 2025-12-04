@@ -96,7 +96,8 @@ Aquesta configuració permet redirigir tot el trànsit de xarxa a través d’un
 
 **\-Aquesta captura mostra paquets SSH capturats amb Wireshark entre dues IPs, indicant comunicació segura. Cada paquet està xifrat, per això només veiem “Encrypted packet” i no el contingut. Serveix per verificar que la connexió SSH està activa i que el trànsit viatja protegit.**  
 ![Captura de la pàgina oficial](img/cap25.png)  
-![Captura de la pàgina oficial](img/cap26.png)  
+![Captura de la pàgina oficial](img/cap26.png) 
+![Captura de la pàgina oficial](img/cap27.png) 
 **Com correctament veiem la nostra IP servidor 192.168.56.109 i la del client que es  10.0.2.15**
 
 INICIAR SESSIÓ AMB SSH KEYS  
