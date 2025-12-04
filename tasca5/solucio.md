@@ -10,8 +10,8 @@
 
 # 
 
-# **![][image1]**
-
+#  
+![Captura de la pàgina oficial](img/capcaphola.png)
 Marc Jurado CFGMSMXA  
 Xarxes Blai redondo
 
