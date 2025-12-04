@@ -4,13 +4,7 @@
 
 # **configuració ssh  Servidor Ubuntu server i configuració ssh i client Windows, tunel i wireshark**
 
-# 
 
-# 
-
-# 
-
-#  
 ![Captura de la pàgina oficial](img/caphola.png)
 
 Marc Jurado CFGMSMXA  
