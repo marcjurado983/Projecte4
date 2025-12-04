@@ -23,33 +23,36 @@ Xarxes Blai redondo
 **\-Finalment, veurem com usar el servei SSH** per fer una connexió des d’un equip Linux a una màquina Windows.
 
 **• Per instal·lar ssh hem de fer:**  – `apt install ssh`  
-![][image2]![][image3]  
+![Captura de la pàgina oficial](img/cap1.png)
+
+![Captura de la pàgina oficial](img/cap2.png)
 **•Mirem si tenim internet a traves del:**  – `ping 8.8.8.8`
 
 **•Mirem si tenim internet a traves del:**  – `ping google.es`  
-![][image4]  
-![][image5]  
+![Captura de la pàgina oficial](img/cap3.png)
+
+![Captura de la pàgina oficial](img/cap4.png)
 **•Primer adaptador haurà de ser en NAT:**  – `canviar la configuració a paràmetres i xarxa adaptador 1`  
-`![][image6]`  
+![Captura de la pàgina oficial](img/cap5.png) 
 **•Segon adaptador haurà de ser en amfitrió:**  – `canviar la configuració a paràmetres i xarxa adaptador 2`
 
-![][image7]  
+![Captura de la pàgina oficial](img/cap6.png)
 **•Configuració de xarxa en el netplan :**  – `canviar la configuració de xarxa, - sudo nano /etc/netplan/00-installer.conf.yaml, posant un adaptador mes en true que es el de enp0s8`
 
-![][image8]  
+![Captura de la pàgina oficial](img/cap7.png)  
 **•Apliquem els canvis del arxiu de xarxa:**  – `sudo netplan apply, han de sortir les tres activades`  
-![][image9]  
+![Captura de la pàgina oficial](img/cap8.png) 
 **•Veure les IP per configurar el ssh en el meu cas la del enp0s8 (amfitrió):**  – IP A, veure la ip del servidor la primera que es enp0s3
 
-![][image10]  
+![Captura de la pàgina oficial](img/cap9.png)  
 **•Comprovació de connexió amb SSH :**  – `desde el client configurar el ssh -ssh usuari@192.168.56.109 posem la contrasenya i ja estem a dins, hem de veure la pantalla de la dreta que es la que te la ip, usuari es el nom del usuario del servidor`
 
-![][image11]  
+![Captura de la pàgina oficial](img/cap10.png)
 **•Captura vista en gran :**  `-ssh usuari@192.168.56.109`![][image12]  
 **•Mes configuració amb un ping al servidor 12 el meu i funciona :**  `-ping server12`  
-![][image13]  
+![Captura de la pàgina oficial](img/cap11.png) 
 **•Per veure el nom del servidor correcte :**  `-hostname -f`  
-![][image14]  
+![Captura de la pàgina oficial](img/cap12.png)
 **•Obrir l'arxiu de ssh  :** `-sudo nano /etc/ssh/sshd_config`  
 **•afegim una linia  :** `-PermitRootLogin no`  
 **•afegim una linia  :** `AllowUsers usuari`  
@@ -63,37 +66,37 @@ Xarxes Blai redondo
 **– Desactiva l’accés al root**   
 **– Crea un nou usuari `usuari2`. Configura SSH perquè només es pugui connectar `usuari` i comprova que `usuari2` no té connexió**
 
-![][image15]  
-![][image16]
+![Captura de la pàgina oficial](img/cap13.png)  
+![Captura de la pàgina oficial](img/cap14.png)
 
-![][image17]  
+![Captura de la pàgina oficial](img/cap15.png)  
 **–reiniciar el servei ssh perquè funcioni:** `-sudo systemctl restart ssh`
 
-![][image18]  
+![Captura de la pàgina oficial](img/cap16.png)  
 **–veurem el status si funciona del ssh i:** `-sudo systemctl status ssh`
 
-![][image19]  
+![Captura de la pàgina oficial](img/cap17.png)  
 **– Com ve ja hem dit abans l tasca ens diu que hem de crear un nou usuari `usuari2`. Configura SSH perquè només es pugui connectar `usuari` i comprova que `usuari2` no té connexió**  
-![][image20]  
-![][image21]  
+![Captura de la pàgina oficial](img/cap18.png)  
+![Captura de la pàgina oficial](img/cap19.png)  
 **– Com veiem aqui si entrem amb ssh usuari2”192.168.56.109 no funcionara perque hem escrit al arxiu de** `-sudo nano /etc/ssh/sshd_config`  **veiem aquí que usuari2 no te connexió amb ssh perquè en arxiu hem posat que  només tingui permís el usuari i si entra un altre no el deixa.**  
-![][image22]  
+![Captura de la pàgina oficial](img/cap20.png)  
 **I ara com veiem aquí al entrar amb ssh al client amb usuari ens deixi completament entrar**  
-**![][image23]**  
+![Captura de la pàgina oficial](img/cap21.png) 
 **Configurarem un túnel amb redirecció dinàmica (dynamic forwarding) que utilitzarem per redirigir el trànsit.**  `-ssh -D 9876 usuari@192.168.56.109`  
-![][image24]  
+![Captura de la pàgina oficial](img/cap22.png)  
 **Configurarem un túnel amb propiedades de internet anirem a les conexiones, configurarem la LAN, li direm que utlitzi servidor proxy per la LAN i veurem que hem de configurar el tunel amb el 9876**  
 Perque fem servir proxy i que es?  
 Aquesta configuració permet redirigir tot el trànsit de xarxa a través d’un servidor proxy local (127.0.0.1:9874), sovint utilitzat amb túnels SSH dinàmics. Això serveix per assegurar connexions o simular accés des d’una altra ubicació. És útil per navegar de forma privada, accedir a recursos restringits o analitzar trànsit amb eines com Wireshark.  
-![][image25]  
+![Captura de la pàgina oficial](img/cap23.png)  
 **Instalar el wireshark a el nostre client i veurem quins paquets i a qui li envia els paquets a cada un desde servidor al client**
 
-![][image26]  
+![Captura de la pàgina oficial](img/cap24.png)
 **Com correctament veiem el wireshark funciona envia els paquets de ssh de servidor a client desde la ip nostre i la del servidor seguidament**
 
 **\-Aquesta captura mostra paquets SSH capturats amb Wireshark entre dues IPs, indicant comunicació segura. Cada paquet està xifrat, per això només veiem “Encrypted packet” i no el contingut. Serveix per verificar que la connexió SSH està activa i que el trànsit viatja protegit.**  
-![][image27]  
-![][image28]  
+![Captura de la pàgina oficial](img/cap25.png)  
+![Captura de la pàgina oficial](img/cap26.png)  
 **Com correctament veiem la nostra IP servidor 192.168.56.109 i la del client que es  10.0.2.15**
 
 INICIAR SESSIÓ AMB SSH KEYS  
