@@ -1,6 +1,6 @@
 # La Vostra Missió: Crear la Base de Coneixement
 
-[solucio)](solucio.md)
+[solucio de la tasca](solucio.md)
 
 La consultora creixerà, i aviat s'incorporaran nous becaris al vostre equip. No podem permetre'ns perdre temps formant-los des de zero en tasques bàsiques.
 
