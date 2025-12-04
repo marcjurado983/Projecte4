@@ -102,20 +102,20 @@ Aquesta configuració permet redirigir tot el trànsit de xarxa a través d’un
 
 INICIAR SESSIÓ AMB SSH KEYS  
 Permetre que el teu equip Windows es connecti al servidor Linux via SSH **sense contrasenya**, utilitzant **autenticació amb clau pública**. Això és més segur i còmode que usar contrasenyes.  
-![][image29]  
+**![Captura de la pàgina oficial](img/cap28.png)
 Crea una parella de claus: **clau privada (**`id_rsa`**)** i **clau pública (**`id_rsa.pub`**)**.  
-![][image30]  
+![Captura de la pàgina oficial](img/cap29.png)  
 Verificar que les claus s’han creat  
-![][image31]  
+![Captura de la pàgina oficial](img/cap30.png) 
 Usa `scp` (secure copy) per enviar la clau pública al servidor.  
 Et demana la contrasenya de l’usuari del servidor (només aquesta vegada).  
 La clau es copia al directori personal del servidor.
 
-![][image32]  
+![Captura de la pàgina oficial](img/cap31.png) 
 Crea el directori `.ssh` si no existeix.  
 Afegeix la clau pública al fitxer `authorized_keys`.  
 Ajusta els permisos per seguretat.
 
-![][image33]  
+![Captura de la pàgina oficial](img/cap32.png)  
 Ara la connexió s’hauria de fer **sense demanar contrasenya**
 
