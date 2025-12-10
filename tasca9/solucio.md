@@ -39,6 +39,7 @@ Per què fem això? Definim els directoris que es compartiran via NFS. Assignem 
 3. Instal·lació del servidor NFS
 
 sudo apt install nfs-kernel-server -y
+
 ![Captura de la pàgina oficial](img/3.png)
 
 Per què fem això? El paquet nfs-kernel-server és el servei que permet exportar directoris a la xarxa. Sense ell, el servidor no pot compartir carpetes amb els clients.
@@ -117,6 +118,7 @@ Per què fem això? Muntem els directoris compartits al client per accedir-hi co
 
 10. Muntatge automàtic amb /etc/fstab
 Afegim al fitxer /etc/fstab:
+
 ![Captura de la pàgina oficial](img/13.png)
 
 192.168.56.107:/srv/nfs/admin_tools /mnt/admin_tools nfs defaults 0 0
