@@ -1,9 +1,19 @@
 # 🗂️ Servidor de fitxers Linux amb NFS
 
-markdown
-# 🗂️ Servidor de fitxers Linux amb NFS
-
 Aquesta guia documenta pas a pas la configuració d’un servidor NFS a Ubuntu Server i la connexió des d’un client Linux (Zorin OS). Inclou explicacions de cada acció i captures numerades.
+
+
+
+## Preparació de l'entorn
+![Captura de la pàgina oficial](img/30.png)
+
+![Captura de la pàgina oficial](img/31.png)
+
+![Captura de la pàgina oficial](img/32.png)
+
+![Captura de la pàgina oficial](img/33.png)
+
+![Captura de la pàgina oficial](img/34.png)
 
 ---
 
