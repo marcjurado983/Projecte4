@@ -33,6 +33,8 @@ sudo chmod 770 /srv/nfs/admin_tools
 
 ![Captura de la pàgina oficial](img/2.png)
 
+![Captura de la pàgina oficial](img/20.png)
+
 Per què fem això? Definim els directoris que es compartiran via NFS. Assignem propietaris i permisos perquè només els membres dels grups corresponents puguin escriure-hi. Això garanteix seguretat i organització.
 
 
