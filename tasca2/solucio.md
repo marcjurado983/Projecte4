@@ -17,6 +17,7 @@ S’han definit dues parts:
 
 ### Instal·lació de Duplicati
 - Descarregar i instal·lar [Duplicati]
+- 
   ![Captura de la pàgina oficial](img/101.png)
   
 - **Per què?** És una eina gratuïta que permet fer còpies locals i al cloud amb programació horària.
@@ -34,6 +35,7 @@ S’han definit dues parts:
 - Afegir arxius a **Documents** i comprovar que es copien.  
 - Esborrar Documents i restaurar des del disc secundari.  
 - Restaurar també des de Google Drive.
+  
   ![Captura de la pàgina oficial](img/103.png)
   
 - **Per què?** Validem que les còpies i restauracions funcionen correctament.
