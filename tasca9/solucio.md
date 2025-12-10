@@ -146,3 +146,12 @@ mount | grep nfs
 ![Captura de la pàgina oficial](img/14.png)
 
 Per què fem això? Reiniciem el client i comprovem que els directoris NFS apareixen muntats correctament. És la validació final que tot funciona.
+
+# Conclusió NFS
+
+Hem muntat un servidor NFS perquè tots tinguin els fitxers al mateix lloc.  
+Així evitem que cada persona tingui còpies diferents i es perdi temps.  
+Els grups i permisos fan que només qui toca pugui escriure o llegir.  
+També hem vist el tema del root_squash i com afecta al root del client.  
+Funciona bé, però en el futur caldria posar més seguretat i control d’usuaris.
+
