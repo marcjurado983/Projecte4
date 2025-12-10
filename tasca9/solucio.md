@@ -15,6 +15,7 @@ sudo useradd -m -s /bin/bash -G devs dev01
 sudo useradd -m -s /bin/bash -G admins admin01
 sudo passwd dev01
 sudo passwd admin01
+
 Per què fem això? Creem grups (devs, admins) per separar rols i permisos. Els usuaris dev01 i admin01 pertanyen a aquests grups, cosa que ens permet controlar qui pot accedir i modificar els recursos compartits.
 
 
