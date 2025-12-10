@@ -9,7 +9,6 @@ Aquesta guia documenta pas a pas la configuració d’un servidor NFS a Ubuntu S
 
 ## 1. Creació de grups i usuaris
 
-```bash
 sudo groupadd devs
 sudo groupadd admins
 sudo useradd -m -s /bin/bash -G devs dev01
