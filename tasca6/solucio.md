@@ -58,8 +58,25 @@ Perquè: Confirmem que la connexió RDP funciona.
 
 ![Captura de la pàgina oficial](img/img12.png)
 
+Què fem: A Zorin configurem Remote Desktop amb el nom del dispositiu i l’adreça (ms-rd://usuari12-VirtualBox.local).
+
+Perquè: Així establim la connexió des de Linux cap a Windows.
+
+
 ![Captura de la pàgina oficial](img/img14.png)
+
+Què fem: Es mostra la finestra per escriure credencials (usuari12, contrasenya).
+
+Perquè: Validem l’accés amb credencials correctes.
 
 ![Captura de la pàgina oficial](img/img15.png)
 
+Què fem: Apareix un avís dient que el certificat no és de confiança.
+
+Perquè: Cal acceptar-lo per establir la connexió.
+
 ![Captura de la pàgina oficial](img/img16.png)
+
+Què fem: Es confirma que la connexió RDP és funcional i segura.
+
+Perquè: Demostra que podem donar suport gràfic a l’usuari final.
