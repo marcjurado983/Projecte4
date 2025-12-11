@@ -1,4 +1,4 @@
-GUIA DE TOT EL PROCEDIMENT DE Accés remot. Escriptori remot (RDP)
+## GUIA DE TOT EL PROCEDIMENT DE Accés remot. Escriptori remot (RDP)
 
 ![Captura de la pàgina oficial](img/img1.png)
 
