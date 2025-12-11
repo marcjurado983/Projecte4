@@ -24,8 +24,6 @@
 
 ![Captura de la pàgina oficial](img/img12.png)
 
-![Captura de la pàgina oficial](img/img13.png)
-
 ![Captura de la pàgina oficial](img/img14.png)
 
 ![Captura de la pàgina oficial](img/img15.png)
