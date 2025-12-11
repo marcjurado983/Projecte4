@@ -22,12 +22,28 @@ Perquè: per establir la connexió.
 
 ![Captura de la pàgina oficial](img/img5.png)
 
+Què fem: Obrim la finestra “Seleccionar usuaris” i afegim l’usuari local Marc.
+
+Perquè: Donem permisos a l’usuari correcte.
+
 
 ![Captura de la pàgina oficial](img/img6.png)
 
+Què fem: Es mostra la llista d’usuaris amb accés remot.
+
+Perquè: Validem que els permisos estan configurats.
+
 ![Captura de la pàgina oficial](img/img7.png)
 
+Què fem: Apareix un avís de certificat (Marc.local) i es pregunta si volem acceptar-lo.
+
+Perquè: El certificat és auto-generat i cal acceptar-lo per continuar.
+
 ![Captura de la pàgina oficial](img/img8.png)
+
+Què fem: Introduïm usuari i contrasenya per accedir via RDP.
+
+Perquè: RDP requereix credencials per seguretat.
 
 ![Captura de la pàgina oficial](img/img9.png)
 
