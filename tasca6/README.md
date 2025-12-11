@@ -1,4 +1,5 @@
 # T06: Accés remot. Escriptori remot (RDP) (tasca individual)
+[solucio de la tasca](solucio.md)
 
 ## 📌 Introducció
 En la tasca anterior vam establir les bases de l'administració remota de servidors mitjançant la línia de comandes (**SSH**).  
