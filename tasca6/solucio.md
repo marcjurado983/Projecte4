@@ -47,11 +47,12 @@ Perquè: RDP requereix credencials per seguretat.
 
 ![Captura de la pàgina oficial](img/img9.png)
 
+![Captura de la pàgina oficial](img/img10.png)
+
 Què fem: Es mostra la sessió de Windows 11 Enterprise des del client.
 
 Perquè: Confirmem que la connexió RDP funciona.
 
-![Captura de la pàgina oficial](img/img10.png)
 
 ![Captura de la pàgina oficial](img/img11.png)
 
