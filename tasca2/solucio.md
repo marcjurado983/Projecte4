@@ -24,9 +24,46 @@ S’han definit dues parts:
 ### Instal·lació de Duplicati
 - Descarregar i instal·lar [Duplicati]
 - 
-  ![Captura de la pàgina oficial](img/101.png)
+  ![Captura de la pàgina oficial](img/104.png)
+
+  **![Captura de la pàgina oficial](img/img105.png)
+
+  ![Captura de la pàgina oficial](img/img106.png)
   
 - **Per què?** És una eina gratuïta que permet fer còpies locals i al cloud amb programació horària.
+
+![Captura de la pàgina oficial](img/img107.png)
+
+![Captura de la pàgina oficial](img/img108.png)
+
+![Captura de la pàgina oficial](img/img109.png)
+
+![Captura de la pàgina oficial](img/img110.png)
+
+![Captura de la pàgina oficial](img/img111.png)
+
+![Captura de la pàgina oficial](img/img112.png)
+
+![Captura de la pàgina oficial](img/img113.png)
+
+![Captura de la pàgina oficial](img/img114.png)
+
+![Captura de la pàgina oficial](img/img115.png)
+
+![Captura de la pàgina oficial](img/img116.png)
+
+![Captura de la pàgina oficial](img/img117.png)
+
+![Captura de la pàgina oficial](img/img118.png)
+
+![Captura de la pàgina oficial](img/img119.png)
+
+![Captura de la pàgina oficial](img/img120.png)
+
+![Captura de la pàgina oficial](img/img121.png)
+
+![Captura de la pàgina oficial](img/img122.png)
+
 
 ### Configuració del pla de còpies
 - Crear dos plans de còpia:  
