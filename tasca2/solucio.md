@@ -13,11 +13,11 @@ S’han definit dues parts:
 - 
   ![Captura de la pàgina oficial](img/100.png)
   
-  ![Captura de la pàgina oficial](img/101.png)
+  ![Captura de la pàgina oficial](img/img101.png)
   
-  ![Captura de la pàgina oficial](img/102.png)
+  ![Captura de la pàgina oficial](img/img102.png)
   
-  ![Captura de la pàgina oficial](img/103.png)
+  ![Captura de la pàgina oficial](img/img103.png)
   
 - **Per què?** El segon disc simula un dispositiu local dedicat a còpies de seguretat.
 
