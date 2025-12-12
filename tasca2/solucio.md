@@ -69,17 +69,13 @@ S’han definit dues parts:
 - Crear dos plans de còpia:  
   - Cada hora → disc secundari.  
   - A les 18:00 → Google Drive (amb un compte específic).
-  - 
-    ![Captura de la pàgina oficial](img/102.png)
-    
-- **Per què?** Això segueix l’esquema **3-2-1**: 3 còpies, 2 suports diferents, 1 còpia fora de l’empresa.
+  -
+  - - **Per què?** Això segueix l’esquema **3-2-1**: 3 còpies, 2 suports diferents, 1 còpia fora de l’empresa.
 
 ### Validació del funcionament
 - Afegir arxius a **Documents** i comprovar que es copien.  
 - Esborrar Documents i restaurar des del disc secundari.  
 - Restaurar també des de Google Drive.
-  
-  ![Captura de la pàgina oficial](img/103.png)
   
 - **Per què?** Validem que les còpies i restauracions funcionen correctament.
 
