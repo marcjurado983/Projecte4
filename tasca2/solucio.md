@@ -80,108 +80,58 @@ S’han definit dues parts:
 ---
 
 # Part 2: Còpia de seguretat servidor Linux
+![Captura de la pàgina oficial](img/img1.png)
 
-## Preparació de la unitat de backup
+![Captura de la pàgina oficial](ok2.png)
 
-sudo mkfs.xfs /dev/sdb sudo mkdir -p /media/backup sudo mount /dev/sdb /media/backup
+![Captura de la pàgina oficial](ok3.png)
 
-![Captura de la pàgina oficial](img/104.png)
+![Captura de la pàgina oficial](ok4.png)
 
-**Per què fem això?**  
-Formategem el disc en xfs i el muntem a `/media/backup` per simular una unitat externa on es guardaran les còpies.
+![Captura de la pàgina oficial](ok5.png)
 
----
+![Captura de la pàgina oficial](ok6.png)
 
-## Instal·lació de Duplicity
-sudo apt update sudo apt install duplicity -y
+![Captura de la pàgina oficial](ok7.png)
 
-![Captura de la pàgina oficial](img/105.png)
+![Captura de la pàgina oficial](ok8.png)
 
-**Per què fem això?**  
-Duplicity és l’eina que permet fer còpies completes i incrementals, tant locals com remotes.
+![Captura de la pàgina oficial](ok9.png)
 
----
+![Captura de la pàgina oficial](ok10.png)
 
-## Creació d’usuaris i arxius de prova
+![Captura de la pàgina oficial](ok11.png)
 
-sudo adduser user01 sudo adduser user02 dd if=/dev/zero of=/home/user01/file1 bs=1M count=10 dd if=/dev/zero of=/home/user01/file2 bs=1M count=10 dd if=/dev/zero of=/home/user01/file3 bs=1M count=10 dd if=/dev/zero of=/home/user01/file4 bs=1M count=10
+![Captura de la pàgina oficial](ok12.png)
 
-![Captura de la pàgina oficial](img/106.png)
+![Captura de la pàgina oficial](ok13.png)
 
-**Per què fem això?**  
-Generem usuaris amb carpetes personals i arxius de prova per comprovar que les còpies funcionen correctament.
+![Captura de la pàgina oficial](ok14.png)
 
----
+![Captura de la pàgina oficial](ok15.png)
 
-## Fer còpia de seguretat de `/home`
-duplicity /home file:///media/backup
+![Captura de la pàgina oficial](ok16.png)
 
-![Captura de la pàgina oficial](img/107.png)
+![Captura de la pàgina oficial](ok17.png)
 
-**Per què fem això?**  
-Guardem una còpia completa de totes les dades dels usuaris.
+![Captura de la pàgina oficial](ok18.png)
 
----
+![Captura de la pàgina oficial](ok19.png)
 
-## Restauració
-duplicity restore file:///media/backup /home
+![Captura de la pàgina oficial](ok20.png)
 
-![Captura de la pàgina oficial](img/108.png)
+![Captura de la pàgina oficial](ok21.png)
 
-**Per què fem això?**  
-Comprovem que els arxius es poden recuperar des de la còpia de seguretat.
+![Captura de la pàgina oficial](ok22.png)
 
----
+![Captura de la pàgina oficial](ok23.png)
 
-## Còpia incremental
-dd if=/dev/zero of=/home/user01/file5 bs=1M count=4 duplicity /home file:///media/backup
+![Captura de la pàgina oficial](ok24.png)
 
-![Captura de la pàgina oficial](img/109.png)
+![Captura de la pàgina oficial](ok25.png)
 
-**Per què fem això?**  
-Només es copia el nou arxiu afegit, demostrant que la còpia és incremental.
+![Captura de la pàgina oficial](ok26.png)
 
----
-
-## Automatització amb scripts
-
-### fullbackup.sh
-#!/bin/bash export PASSPHRASE="contrasenya" sudo mount /dev/sdb /media/backup duplicity full /home file:///media/backup sudo umount /media/backup
-
-![Captura de la pàgina oficial](img/110.png)
-
-**Per què fem això?**  
-Fem una còpia completa i assegurem que la unitat només estigui muntada durant el procés.
-
----
-
-### incrementalbackup.sh
-#!/bin/bash export PASSPHRASE="contrasenya" sudo mount /dev/sdb /media/backup duplicity incr /home file:///media/backup sudo umount /media/backup
-
-![Captura de la pàgina oficial](img/111.png)
-
-**Per què fem això?**  
-Fem còpies incrementals per estalviar espai i temps, mantenint la unitat desmuntada per seguretat.
-
----
-
-## Programació amb cron
-
-### Full backup (diumenge 23:00)
-
-sudo crontab -e 0 23 * * 0 /root/fullbackup.sh
-
-![Captura de la pàgina oficial](img/112.png)
-
-
-### Incremental backup (dilluns-dissabte 23:00)
-sudo crontab -e 0 23 * * 1-6 /root/incrementalbackup.sh
-
-![Captura de la pàgina oficial](img/113.png)
-
-
-**Per què fem això?**  
-Automatitzem les còpies per garantir que es facin sense intervenció manual i sempre a la mateixa hora.
 
 ---
 
