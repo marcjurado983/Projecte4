@@ -1,4 +1,5 @@
 # T02: DPR: còpies de seguretat. Cas pràctic
+[solucio de la tasca](solucio.md)
 
 ## 📝 Introducció al cas
 A la tasca anterior es va dissenyar una política de còpies de seguretat pel client **Muntatges i Serveis Tècnics SL**. Ara toca portar a la pràctica l’estudi i elaborar guies tècniques amb proves de concepte perquè el personal pugui implantar el pla de còpies de seguretat.
