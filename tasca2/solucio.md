@@ -80,57 +80,56 @@ S’han definit dues parts:
 ---
 
 # Part 2: Còpia de seguretat servidor Linux
-![Captura de la pàgina oficial](img/img1.png)
+![Captura de la pàgina oficial](/img/ok2.png)
 
-![Captura de la pàgina oficial](ok2.png)
+![Captura de la pàgina oficial](/img/ok3.png)
 
-![Captura de la pàgina oficial](ok3.png)
+![Captura de la pàgina oficial](/img/ok4.png)
 
-![Captura de la pàgina oficial](ok4.png)
+![Captura de la pàgina oficial](/img/ok5.png)
 
-![Captura de la pàgina oficial](ok5.png)
+![Captura de la pàgina oficial](/img/ok6.png)
 
-![Captura de la pàgina oficial](ok6.png)
+![Captura de la pàgina oficial](/img/ok7.png)
 
-![Captura de la pàgina oficial](ok7.png)
+![Captura de la pàgina oficial](/img/ok8.png)
 
-![Captura de la pàgina oficial](ok8.png)
+![Captura de la pàgina oficial](/img/ok9.png)
 
-![Captura de la pàgina oficial](ok9.png)
+![Captura de la pàgina oficial](/img/ok10.png)
 
-![Captura de la pàgina oficial](ok10.png)
+![Captura de la pàgina oficial](/img/ok11.png)
 
-![Captura de la pàgina oficial](ok11.png)
+![Captura de la pàgina oficial](/img/ok12.png)
 
-![Captura de la pàgina oficial](ok12.png)
+![Captura de la pàgina oficial](/img/ok13.png)
 
-![Captura de la pàgina oficial](ok13.png)
+![Captura de la pàgina oficial](/img/ok14.png)
 
-![Captura de la pàgina oficial](ok14.png)
+![Captura de la pàgina oficial](/img/ok15.png)
 
-![Captura de la pàgina oficial](ok15.png)
+![Captura de la pàgina oficial](/img/ok16.png)
 
-![Captura de la pàgina oficial](ok16.png)
+![Captura de la pàgina oficial](/img/ok17.png)
 
-![Captura de la pàgina oficial](ok17.png)
+![Captura de la pàgina oficial](/img/ok18.png)
 
-![Captura de la pàgina oficial](ok18.png)
+![Captura de la pàgina oficial](/img/ok19.png)
 
-![Captura de la pàgina oficial](ok19.png)
+![Captura de la pàgina oficial](/img/ok20.png)
 
-![Captura de la pàgina oficial](ok20.png)
+![Captura de la pàgina oficial](/img/ok21.png)
 
-![Captura de la pàgina oficial](ok21.png)
+![Captura de la pàgina oficial](/img/ok22.png)
 
-![Captura de la pàgina oficial](ok22.png)
+![Captura de la pàgina oficial](/img/ok23.png)
 
-![Captura de la pàgina oficial](ok23.png)
+![Captura de la pàgina oficial](/img/ok24.png)
 
-![Captura de la pàgina oficial](ok24.png)
+![Captura de la pàgina oficial](/img/ok25.png)
 
-![Captura de la pàgina oficial](ok25.png)
+![Captura de la pàgina oficial](/img/ok26.png)
 
-![Captura de la pàgina oficial](ok26.png)
 
 
 ---
