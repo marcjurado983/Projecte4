@@ -23,10 +23,8 @@ S’han definit dues parts:
 
 ### Instal·lació de Duplicati
 - Descarregar i instal·lar [Duplicati]
-- 
-  ![Captura de la pàgina oficial](img/104.png)
 
-  **![Captura de la pàgina oficial](img/img105.png)
+    **![Captura de la pàgina oficial](img/img105.png)
 
   ![Captura de la pàgina oficial](img/img106.png)
   
