@@ -39,6 +39,8 @@ Com instal·lar la versió completa/tècnica de l'eina.
 
 ![Captura de la pàgina oficial](img/im2.png)
 
+![Captura de la pàgina oficial](img/imm.png)
+
 ![Captura de la pàgina oficial](img/im3.png)
 
  Com gestionar funcions clau (transferència d'arxius, canvi de pantalla, reinici remot).
