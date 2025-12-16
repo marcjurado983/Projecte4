@@ -33,25 +33,25 @@ Ha d'explicar el flux de treball des del punt de vista del consultor. Ha d'inclo
 
 Com instal·lar la versió completa/tècnica de l'eina.
 
-![][image1]
+![Captura de la pàgina oficial](img/im1.png)
 
  Com iniciar una sessió de suport.
 
-![][image2]
+![Captura de la pàgina oficial](img/im2.png)
 
-![][image3]
+![Captura de la pàgina oficial](img/im3.png)
 
  Com gestionar funcions clau (transferència d'arxius, canvi de pantalla, reinici remot).
 
-![][image4]
+![Captura de la pàgina oficial](img/im4.png)
 
-![][image5]
+![Captura de la pàgina oficial](img/im5.png)
 
-![][image6]
+![Captura de la pàgina oficial](img/im6.png)
 
-![][image7]
+![Captura de la pàgina oficial](img/im7.png)
 
-![][image8]
+![Captura de la pàgina oficial](img/im8.png)
 
  Bones pràctiques de seguretat (p. ex., tancar sempre la sessió, no desar contrasenyes de clients)
 
@@ -65,17 +65,16 @@ Ha d'incloure (amb captures de pantalla molt clares):
 
 ·         L'enllaç o la manera de descarregar el mòdul "Quick Support" (o equivalent) que no requereixi instal·lació.
 
-![][image9]
+![Captura de la pàgina oficial](img/im9.png)
 
 ·         On han de fer clic exactament.
 
 ·         Com identificar i comunicar al tècnic l'ID de sessió i la contrasenya (si n'hi ha).
 
-![][image10]
+![Captura de la pàgina oficial](img/im10.png)
 
-![][image11]
-
+![Captura de la pàgina oficial](img/im11.png)
 ·         Com acceptar la petició de connexió.
 
-![][image12]![][image13]![][image14]
+![Captura de la pàgina oficial](img/im12.png)
 
