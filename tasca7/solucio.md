@@ -53,7 +53,6 @@ Com instal·lar la versió completa/tècnica de l'eina.
 
 ![Captura de la pàgina oficial](img/im7.png)
 
-![Captura de la pàgina oficial](img/im8.png)
 
  Bones pràctiques de seguretat (p. ex., tancar sempre la sessió, no desar contrasenyes de clients)
 
@@ -66,6 +65,8 @@ Ha d'explicar el procés des del punt de vista de l'usuari que rep ajuda.
 Ha d'incloure (amb captures de pantalla molt clares):
 
 ·         L'enllaç o la manera de descarregar el mòdul "Quick Support" (o equivalent) que no requereixi instal·lació.
+
+![Captura de la pàgina oficial](img/im8.png)
 
 ![Captura de la pàgina oficial](img/im9.png)
 
