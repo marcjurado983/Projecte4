@@ -77,12 +77,12 @@ Ha d'incloure (amb captures de pantalla molt clares):
 ![Captura de la pàgina oficial](img/im10.png)
 
 ![Captura de la pàgina oficial](img/im11.png)
+
 ·         Com acceptar la petició de connexió.
 
 ![Captura de la pàgina oficial](img/im12.png)
 
 ![Captura de la pàgina oficial](img/im13.png)
 
-![Captura de la pàgina oficial](img/im14.png)
 
 
