@@ -1,5 +1,7 @@
 # Projecte: Eina d’Assistència Remota sota Demanda – EverPia
 
+[solucio de la tasca](solucio.md)
+
 Quan un client truca perquè **“el PDF no s’obre”**, **“li ha desaparegut una icona”** o **“la impressora no imprimeix”**, no li podem demanar que configuri una VPN o obri el port 3389 del seu router.  
 
 Necessitem una **eina d’assistència remota sota demanda**:  
