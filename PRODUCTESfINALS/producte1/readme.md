@@ -1,7 +1,5 @@
 # P01: GitHub. Treballant de forma col·laborativa: forks i pull request.
 
-# 🚀 Flux de Treball Professional amb GitHub a EverPia
-
 ## 🤝 Treball en equip i control de versions
 
 Molt bona feina, equip.
